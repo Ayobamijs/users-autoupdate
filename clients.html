@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container  bg-success mt-4">
+        <h2 style="text-align: center; color: yellow;">YOUR INFORMATION</h2>
+        <p style="text-align: center;">THIS ARE ALL THE INFOMATIONS YOU HAVE PROVIDED SO FAR</p>
+
+        <div class="row">
+
+            <div class="container mt-3 col-6">
+                <img class="rounded-circle mb-4" id="profilepics" style="width:60%" width="200" height="300">
+                <h3>Your Profile Picture</h3>
+            </div>
+
+            <div class="col-6">
+
+                <div class="row">
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">First-Name:</p>
+                        <p id="fname"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">last-Name:</p>
+                        <p id="lname"></p>
+                    </div>
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">Street No:</p>
+                        <p id="stno"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Street Name:</p>
+                        <p id="stna"></p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">City:</p>
+                        <p id="city"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">State:</p>
+                        <p id="state"></p>
+                    </div>
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">Country:</p>
+                        <p id="Country"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Post-code:</p>
+                        <p id="postcode"></p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">Latitude:</p>
+                        <p id="ltt"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Longitude:</p>
+                        <p id="lgtt"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Password:</p>
+                        <p id="pwd"></p>
+                    </div>
+
+
+                    <div class="container col-3">
+                        <p style="color: beige;">User-Name:</p>
+                        <p id="usern"></p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">DOB:</p>
+                        <p id="dob"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Age:</p>
+                        <p id="Age"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Registered:</p>
+                        <p id="reg"></p>
+                    </div>
+
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Age of Reg:</p>
+                        <p id="agereg"></p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">Phone No:</p>
+                        <p id="pno"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Cell:</p>
+                        <p id="cell"></p>
+                    </div>
+
+                    <div class="container col-3">
+                        <p style="color: beige;">ID:</p>
+                        <p id="id"></p>
+                    </div>
+
+
+                    <div class="container col-3">
+                        <p style="color: beige;">Value:</p>
+                        <p id="Value"></p>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="container  col-3">
+                        <p style="color: beige;">Email:</p>
+                        <p id="email"></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <script>
+        fetch("https://randomuser.me/api/").then(function (data) {
+            return data.json()
+        }).then(response => {
+            let result = response.results[0];
+            let serverPicture = result.picture.large;
+            let pic = document.querySelector('#profilepics');
+            pic.src = serverPicture;
+            // console.log(result)
+            // let name = result = response.results[0].name;
+            // let fullName = name.title + name.first + name.last;
+            // document.querySelector('#name').innerHTML = fullName;
+            // console.log(fullName)
+        })
+    </script> -->
+
+    <script src="clients.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
